@@ -101,7 +101,13 @@ CREATE TABLE IF NOT EXISTS `rhinexpenses`.`user_role` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = latin1;
 
+INSERT INTO `role` (`role_id`, `role`) VALUES
+(1, 'ADMIN'),
+(2, 'USER');
 
-SET SQL_MODE=@OLD_SQL_MODE;
-SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
-SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+INSERT INTO `user_role` (`user_id`, `role_id`) VALUES
+(1, 2),
+(2, 2),
+(3, 2);
+
