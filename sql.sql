@@ -112,22 +112,22 @@ INSERT INTO `user_role` (`user_id`, `role_id`) VALUES
 (3, 2);
 
 INSERT INTO `category` (`category_id`,`description`)  VALUES
-(`Limpieza`,`Limpieza`),
-(`Alimentos`,`Alimentos`),
-(`Electricidad`,`Electricidad`),
-(`Agua`,`Agua`),
-(`Gas`,`Gas`),
-(`Celular`,`Celuar`),
-(`Cable`,`Cable`),
-(`Internet`,`Internet`),
-(`Salidas/Tiempo Libre`,`Salidas/Tiempo Libre`),
-(`Gastos Vehiculo`,`Gastos Vehiculo`),
-(`Tarjeta de credito`,`Tarjeta de credito`),
-(`Deportes`,`Deportes`),
-(`Ropa`,`Ropa`),
-(`Viajes`,`Viajes`),
-(`Higiene`,`Higiene`),
-(`Gastos Medicos`,`Gastos Medicos`);
+('Limpieza','Limpieza'),
+('Alimentos','Alimentos'),
+('Electricidad','Electricidad'),
+('Agua','Agua'),
+('Gas','Gas'),
+('Celular','Celuar'),
+('Cable','Cable'),
+('Internet','Internet'),
+('Salidas/Tiempo Libre','Salidas/Tiempo Libre'),
+('Gastos Vehiculo','Gastos Vehiculo'),
+('Tarjeta de credito','Tarjeta de credito'),
+('Deportes','Deportes'),
+('Ropa','Ropa'),
+('Viajes','Viajes'),
+('Higiene','Higiene'),
+('Gastos Medicos','Gastos Medicos');
 
 
 
