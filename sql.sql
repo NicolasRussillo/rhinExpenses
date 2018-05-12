@@ -117,7 +117,7 @@ INSERT INTO `category` (`category_id`,`description`)  VALUES
 ('Electricidad','Electricidad'),
 ('Agua','Agua'),
 ('Gas','Gas'),
-('Celular','Celuar'),
+('Celular','Celular'),
 ('Cable','Cable'),
 ('Internet','Internet'),
 ('Salidas/Tiempo Libre','Salidas/Tiempo Libre'),
